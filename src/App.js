@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import SpacesMain from './components/SpacesMain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mx-auto p-10 flex flex-wrap">
+      <h1 className='text-2xl mb-5 font-bold w-full'>SpaceX launch Programs</h1>
+     <SpacesMain />
     </div>
   );
 }
